@@ -1,0 +1,52 @@
+Project 4: Arith 
+By: Kalyn Muhlenberg (kmuhle01) and Hannah Shader (hshade01)
+
+Identifies you and your programming partner by name:
+- Kalyn Muhlenberg and Hannah Shader
+Briefly explains your architecture (i.e. which files do what):
+- Bitpack.h/Bitpack.c
+    - files that hold functions for inspecting/modifying
+    bit sequences as int64_ts and uint64_ts
+
+- file_word.h/file_word.c
+    - files that hold functions for reading files to
+    an 2D array of uint32_ts, and for writing arrays
+    of uint32_ts to files
+
+- word_unpacked.h/word_unpacked.c
+    - files that hold functions for bitunpacking
+    arrays of type uint32_ts to structs that hold their 
+    data more plainly, and for writing arrays
+    of structs that hold unpacked data more plainly to
+    arrays of uint32_ts
+
+- unpacked_cv.h/unpacked_cv.c
+    - files that hold functions for bitunpacking
+    arrays of type uint32_ts to structs that hold their 
+    data more plainly, and for writing arrays
+    of structs that hold unpacked data more plainly to
+    arrays of uint32_ts
+
+- cv_rgb.h/cv_rgb.c
+    - files that hold functions for converting a 2D array of
+    representative structs of color video pixels to Pnm-ppm
+    red, green, blue pixels, and visa versa
+
+- compress40.h/compress40.c
+    - hold functions that call other files to fully convert from
+    a Pnm_ppm to a output file in the specified format, and 
+    from an output file in the specified format to a pnm_ppm
+    - frees all data associated with the temporary arrays
+    created for the compression and decompression
+
+Acknowledges help you may have received from or collaborative 
+work you may have undertaken with others:
+    - Only recieved help from the TAs
+Identifies what has been correctly implemented and what has not:
+    - We believe that everything has been correctly implemented
+Says approximately how many hours you have spent analyzing the 
+problems posed in the assignment:
+    - We believe we have spent approximately 5 hours 
+Says approximately how many hours you have spent solving the 
+problems after your analysis:
+    - We believe we have spent approximately 25 hours 
